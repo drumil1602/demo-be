@@ -3,7 +3,7 @@ import cors from 'cors';
 
 const app = express();
 app.use(cors({
-    origin: '*'
+    origin: 'https://demo-1-vaj9.onrender.com/'
 }));
 app.get('/api', (req, res) => {
     res.json({key:"hello"});
